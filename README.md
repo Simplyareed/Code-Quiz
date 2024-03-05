@@ -18,8 +18,6 @@ To use this quiz, all that is required is that you visit the website, and from t
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
 
 ![Screenshot](https://github.com/Simplyareed/Code-Quiz/blob/main/CODE%20QUIZ%20SH.jpeg)
 
