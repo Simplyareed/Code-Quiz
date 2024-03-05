@@ -86,7 +86,7 @@ function endGame() {
     });
 }
 
-function submitScore() {
+function submitScore() {  // Function for submissions of scores
     var initials = initialsInput.value.trim().toUpperCase();
 
     if (initials === "") {
@@ -102,12 +102,12 @@ function submitScore() {
 
     highScores = highScores.slice(0, 5);
 
-    localStorage.setItem("highScores", JSON.stringify(highScores));
+    localStorage.setItem("highScores", JSON.stringify(highScores));   // Adding stringify 
 
     endGame();
 }
 
-var questions = [
+var questions = [  // questions for the coding quiz, including booleans 
     {
         question: 'Using a # is to define what?',
         answers: [
@@ -146,7 +146,7 @@ var questions = [
     }
 ];
 
-startButton.addEventListener("click", startGame);
+startButton.addEventListener("click", startGame); // adding eventlistner to click and start game
 
 document.addEventListener("keydown", function (event) {
     if (timerCount === 0) {

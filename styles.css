@@ -23,8 +23,8 @@ body {
 
 #quiz-title, #intro-text {
     text-align: center;
-    color: darkslategray; /* Adjust the color as needed */
-    margin-bottom: 20px; /* Adjust spacing */
+    color: darkslategray; 
+    margin-bottom: 20px; 
 }
 
 .btn-grid {
@@ -42,12 +42,14 @@ button {
     padding: 5px 10px;
 }
 
-.hide {
+/* adding the hide feature for display */
+
+.hide {     
     display: none;
 }
 
 .feedback {
-    color: red; /* Change the color as needed */
+    color: red; 
     font-weight: bold;
-    margin-top: 10px; /* Adjust spacing */
+    margin-top: 10px; 
 }
